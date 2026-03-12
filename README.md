@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ako som sa zbavil zápachu cigariet po 15 rokoch | Lifestyle Magazín</title>
+    
+    <!-- Meta pre sociálne siete -->
+    <meta property="og:title" content="Ako som sa zbavil zápachu cigariet po 15 rokoch">
+    <meta property="og:description" content="Osobný príbeh o modernej alternatíve, ktorá mi zmenila život">
+    <meta property="og:type" content="article">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    
+    <!-- Facebook Pixel -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'YOUR_PIXEL_ID');
+        fbq('track', 'PageView');
+    </script>
+    
+    <!-- TikTok Pixel -->
+    <script>
+        !function (w, d, t) {
+            w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];
+            ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"];
+            ttq.setAndDefer=function(t,t){for(var e=0;e<ttq.methods.length;e++)ttq.setAndDefer(t,ttq.methods[e])};
+            ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=n,n=document.createElement("script"),n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+            ttq.load('YOUR_TIKTOK_PIXEL_ID');
+            ttq.page();
+        }(window, document, 'ttq');
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.8;
+            color: #333;
+            background: #fafafa;
+        }
+        
+        /* Header */
+        .header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+            text-decoration: none;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .nav-links a {
+            color: #666;
+            text-decoration: none;
+            font-size: 14px;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        /* Article Container */
+        .article-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background: #fff;
+        }
+        
+        /* Meta Info */
+        .meta-info {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .category {
+            color: #e74c3c;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-weight: bold;
+        }
+        
+        .article-title {
+            font-size: 42px;
+            line-height: 1.2;
+            margin: 15px 0;
+            color: #2c3e50;
+            font-weight: 700;
+        }
+        
+        .author-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .author-details {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        .author-name {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .publish-date {
+            color: #999;
+            font-size: 14px;
+        }
+        
+        .reading-time {
+            color: #999;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+        
+        /* Social Share */
+        .social-share {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .share-btn {
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 13px;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            transition: all 0.3s;
+        }
+        
+        .share-fb {
+            background: #1877f2;
+            color: white;
+        }
+        
+        .share-tw {
+            background: #1da1f2;
+            color: white;
+        }
+        
+        .share-email {
+            background: #eee;
+            color: #333;
+        }
+        
+        /* Hero Image */
+        .hero-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        
+        /* Article Content */
+        .article-content {
+            font-size: 18px;
+            line-height: 1.9;
+            color: #444;
+        }
+        
+        .article-content p {
+            margin-bottom: 25px;
+        }
+        
+        .article-content h2 {
+            font-size: 28px;
+            margin: 40px 0 20px;
+            color: #2c3e50;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        .article-content h3 {
+            font-size: 22px;
+            margin: 30px 0 15px;
+            color: #34495e;
+        }
+        
+        .highlight-box {
+            background: #f8f9fa;
+            border-left: 4px solid #e74c3c;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .highlight-box p {
+            margin: 0;
+            font-style: italic;
+            color: #555;
+        }
+        
+        /* Comparison Table */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        .comparison-table th,
+        .comparison-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .comparison-table th {
+            background: #2c3e50;
+            color: white;
+        }
+        
+        .comparison-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .check {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        
+        .cross {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        /* Product Gallery */
+        .product-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        /* CTA Button */
+        .cta-section {
+            text-align: center;
+            margin: 50px 0;
+            padding: 40px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 12px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 18px 40px;
+            background: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+        }
+        
+        .cta-button:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+        }
+        
+        /* Comments Section */
+        .comments-section {
+            margin: 50px 0;
+            padding-top: 40px;
+            border-top: 2px solid #eee;
+        }
+        
+        .comments-title {
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        .comment {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .comment-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #666;
+            flex-shrink: 0;
+        }
+        
+        .comment-content {
+            flex: 1;
+        }
+        
+        .comment-author {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        .comment-text {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        
+        .comment-time {
+            color: #999;
+            font-size: 13px;
+            margin-top: 5px;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+        
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        
+        .age-warning {
+            background: #e74c3c;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        .nicotine-warning {
+            margin: 20px 0;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .footer-links {
+            margin-top: 20px;
+        }
+        
+        .footer-links a {
+            color: #bdc3c7;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .article-title {
+                font-size: 28px;
+            }
+            
+            .hero-image {
+                height: 250px;
+            }
+            
+            .article-content {
+                font-size: 16px;
+            }
+            
+            .comparison-table {
+                font-size: 14px;
+            }
+            
+            .comparison-table th,
+            .comparison-table td {
+                padding: 10px;
+            }
+            
+            .cta-button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+        
+        /* Sticky CTA for Mobile */
+        .sticky-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            padding: 15px;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+            z-index: 99;
+        }
+        
+        @media (max-width: 768px) {
+            .sticky-cta {
+                display: block;
+            }
+            
+            .footer {
+                margin-bottom: 70px;
+            }
+        }
+        
+        .sticky-cta-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background: #e74c3c;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 25px;
+            font-weight: bold;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <a href="#" class="logo">Lifestyle Magazín</a>
+            <nav class="nav-links">
+                <a href="#">Zdravie</a>
+                <a href="#">Životný štýl</a>
+                <a href="#">Recenzie</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Article -->
+    <article class="article-container">
+        
+        <!-- Meta Info -->
+        <div class="meta-info">
+            <span class="category">Životný štýl</span>
+            <h1 class="article-title">Ako som sa po 15 rokoch zbavil zápachu cigariet: Príbeh o modernej alternatíve, ktorá mi zmenila život</h1>
+            
+            <div class="author-info">
+                <div class="author-avatar">MK</div>
+                <div class="author-details">
+                    <div class="author-name">Martin Kováč</div>
+                    <div>
+                        <span class="publish-date">13. marec 2026</span>
+                        <span class="reading-time">• 8 min čítania</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Social Share -->
+            <div class="social-share">
+                <a href="#" class="share-btn share-fb">Zdieľať na Facebooku</a>
+                <a href="#" class="share-btn share-tw">Twitter</a>
+                <a href="#" class="share-btn share-email">Email</a>
+            </div>
+        </div>
+
+        <!-- Hero Image -->
+        <img src="https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=1200&h=400&fit=crop" alt="Moderný životný štýl bez dymu" class="hero-image">
+
+        <!-- Article Content -->
+        <div class="article-content">
+            
+            <p><strong>Každý fajčiar to pozná</strong> – žlté prsty, zápach v aute, nepríjemné pohľady v spoločnosti. Po pätnástich rokoch fajčenia som bol unavený z toho, že moje okolie neustále cíti dym. Hľadal som cestu von, ktorá by nebola náročná na psychiku, ale zároveň by mi dala slobodu, na ktorú som bol zvyknutý.</p>
+
+            <p>Dnes, po šiestich mesiacoch, môžem povedať, že som našiel riešenie, ktoré mi zmenilo život. A nie som sám – tisíce Slovákov každý mesiac objavujú túto modernú alternatívu.</p>
+
+            <h2>Problém, ktorý nás všetkých spája</h2>
+            
+            <p>Klasické cigarety sú súčasťou našej spoločnosti desaťročia. Ale poďme sa priznať – sú drahé, smrdia a každý, kto okolo vás prejde, to vie okamžite zistiť. Moja priateľka neustále komentovala zápach v aute, deti sa ma báli pobozkať, keď som prišiel domov z práce. Bol to neustály stres.</p>
+
+            <div class="highlight-box">
+                <p>"Najhoršie bolo ráno – každý deň som sa zobudil s pachuťou v ústach a kašľom, ktorý ma sprevádzal celé doobedie."</p>
+            </div>
+
+            <p>Skúšal som nikotínové žuvačky, náplasti, dokonca aj hypnózu. Nič nefungovalo dlhodobo. Potom mi kolega v práci ukázal niečo, čo vyzeralo ako technologická hračka, ale ukázalo sa to ako životná zmena.</p>
+
+            <h2>Elektronické cigarety: Čo to vlastne je?</h2>
+            
+            <p>Elektronická cigareta, alebo "vape", je zariadenie, ktoré zahrieva tekutinu s nikotínom na výrovu pary namiesto spálenia tabaku. Žiadny dym, žiadny popol, žiadny odporný zápach.</p>
+
+            <p>Prvýkrát som to skúsil v práci počas prestávky. Bol som prekvapený – chuť bola príjemná, pripomínala ovocie, a keď som sa vrátil do kancelárie, nikto si nič nevšimol. Žiadny zápach, žiadne žlté prsty.</p>
+
+            <h2>Priama porovnávacia tabuľka</h2>
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Vlastnosť</th>
+                        <th>Klasické cigarety</th>
+                        <th>Elektronická cigareta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Zápach</td>
+                        <td class="cross">✗ Drží sa v oblečení, vlasoch, aute</td>
+                        <td class="check">✔ Žiadny trvalý zápach</td>
+                    </tr>
+                    <tr>
+                        <td>Popol</td>
+                        <td class="cross">✗ Neustále zametanie, špinavé popolníky</td>
+                        <td class="check">✔ Žiadny popol</td>
+                    </tr>
+                    <tr>
+                        <td>Príchute</td>
+                        <td class="cross">✗ Iba tabaková alebo mentolová</td>
+                        <td class="check">✔ Desiatky príchutí (ovocie, dezerty, mentol)</td>
+                    </tr>
+                    <tr>
+                        <td>Cena (mesačne)</td>
+                        <td class="cross">✗ 150-200€</td>
+                        <td class="check">✔ 30-50€</td>
+                    </tr>
+                    <tr>
+                        <td>Používanie vnútri</td>
+                        <td class="cross">✗ Zakázané všade</td>
+                        <td class="check">✔ Možné v mnohých priestoroch</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Moja osobná skúsenosť po 6 mesiacoch</h2>
+            
+            <p>Prechod nebol okamžitý. Prvé tri dni som si musel zvykať na iný spôsob "fajčenia" – vaporizér sa používa trochu inak ako cigareta. Ale po týždni to bolo prirodzené.</p>
+
+            <p>Čo sa zmenilo:</p>
+            <ul style="margin: 20px 0 20px 40px;">
+                <li>Ráno sa už nebudím s kašľom</li>
+                <li>Moje auto konečne vonia normálne</li>
+                <li>Deti ma už neodstrkujú, keď prídem domov</li>
+                <li>Ušetril som už viac ako 600€</li>
+                <li>Nemusím behať na benzínku o polnoci</li>
+            </ul>
+
+            <h3>Produkty, ktoré som vyskúšal</h3>
+            
+            <p>Na trhu je obrovské množstvo zariadení. Ja osobne preferujem jednoduchšie pod systémy, ktoré nevyžadujú žiadne nastavovanie – len vymeníte cartridge a pokračujete.</p>
+
+            <!-- Product Gallery -->
+            <div class="product-gallery">
+                <img src="https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=400&h=400&fit=crop" alt="Moderný vape zariadenie" class="product-image">
+                <img src="https://images.unsplash.com/photo-1560926027-2f6d7536f219?w=400&h=400&fit=crop" alt="Rôzne príchute" class="product-image">
+                <img src="https://images.unsplash.com/photo-1555487505-b603239f7d6d?w=400&h=400&fit=crop" alt="Použitie v praxi" class="product-image">
+            </div>
+
+            <p>Odporúčam začať s nižšou silou nikotínu a postupne ju prispôsobovať svojim potrebám. Dôležité je nájsť obchod, ktorý ponúka kvalitné produkty a poradenstvo – nie všetko na trhu je rovnakej kvality.</p>
+
+            <div class="highlight-box">
+                <p><strong>Tip pre začiatočníkov:</strong> Nebojte sa experimentovať s príchuťami. Mnohí fajčiari zistia, že im viac vyhovujú ovocné alebo mentolové varianty ako tradičná tabaková chuť.</p>
+            </div>
+
+            <h2>Čo hovoria ostatní?</h2>
+            
+            <p>Nie som jediný, kto mal pozitívnu skúsenosť. V našej redakcii sme oslovili čitateľov, ktorí prešli na elektronické cigarety, a ich reakcie boli prevažne pozitívne.</p>
+
+        </div>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h3 style="margin-bottom: 15px; color: #2c3e50;">Chcete zistiť viac o modernej alternatíve?</h3>
+            <p style="margin-bottom: 25px; color: #666;">Navštívte špecializovaný obchod s profesionálnym poradenstvom a širokou ponukou overených produktov.</p>
+            <a href="https://www.e-vaper.sk" class="cta-button" onclick="fbq('track', 'Lead'); gtag('event', 'conversion', {'send_to': 'AW-CONVERSION_ID/CONVERSION_LABEL'});">Zistiť viac →</a>
+        </div>
+
+        <!-- Comments Section -->
+        <div class="comments-section">
+            <h3 class="comments-title">Komentáre čitateľov (12)</h3>
+            
+            <div class="comment">
+                <div class="comment-avatar">JP</div>
+                <div class="comment-content">
+                    <div class="comment-author">Ján P.</div>
+                    <div class="comment-text">Presne takto som to mal aj ja. Prešiel som pred rokom a neviem si predstaviť návrat k bežným cigaretám. Auto konečne vonia normálne 😊</div>
+                    <div class="comment-time">Pred 2 hodinami</div>
+                </div>
+            </div>
+
+            <div class="comment">
+                <div class="comment-avatar">KS</div>
+                <div class="comment-content">
+                    <div class="comment-author">Katarína S.</div>
+                    <div class="comment-text">Manžel fajčil 20 rokov, teraz používa vape už pol roka a doma je oveľa príjemnejšia atmosféra. Odporúčam každému vyskúšať.</div>
+                    <div class="comment-time">Pred 5 hodinami</div>
+                </div>
+            </div>
+
+            <div class="comment">
+                <div class="comment-avatar">MR</div>
+                <div class="comment-content">
+                    <div class="comment-author">Michal R.</div>
+                    <div class="comment-text">Na začiatku som bol skeptický, ale teraz šetrím cca 120€ mesačne. Investícia sa vráti za pár týždňov.</div>
+                    <div class="comment-time">Včera</div>
+                </div>
+            </div>
+
+            <div class="comment">
+                <div class="comment-avatar">LN</div>
+                <div class="comment-content">
+                    <div class="comment-author">Lucia N.</div>
+                    <div class="comment-text">Konečne článok, ktorý objektívne porovnáva výhody a nevýhody. Ďakujem za tipy!</div>
+                    <div class="comment-time">Včera</div>
+                </div>
+            </div>
+
+            <div class="comment">
+                <div class="comment-avatar">TK</div>
+                <div class="comment-content">
+                    <div class="comment-author">Tomáš K.</div>
+                    <div class="comment-text">Objednal som cez e-vaper.sk minulý týždeň, doručenie bolo rýchle a poradenstvo profesionálne. Odporúčam.</div>
+                    <div class="comment-time">Pred 2 dňami</div>
+                </div>
+            </div>
+        </div>
+
+    </article>
+
+    <!-- Sticky CTA for Mobile -->
+    <div class="sticky-cta">
+        <a href="https://www.e-vaper.sk" class="sticky-cta-button" onclick="fbq('track', 'Lead');">Zistiť viac o produktoch</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="age-warning">⚠️ 18+ | Produkt je určený výhradne pre osoby staršie ako 18 rokov</div>
+            
+            <div class="nicotine-warning">
+                Upozornenie: Tento produkt obsahuje nikotín, ktorý je látkou spôsobujúcou závislosť.<br>
+                Nie je určený pre nefajčiarov, tehotné alebo dojčiace ženy, osoby s kardiovaskulárnymi ochoreniami a osoby citlivé na nikotín.
+            </div>
+            
+            <div class="footer-links">
+                <a href="#">Podmienky používania</a>
+                <a href="#">Ochrana osobných údajov</a>
+                <a href="#">Kontakt</a>
+                <a href="#">O nás</a>
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 12px; opacity: 0.7;">
+                © 2026 Lifestyle Magazín. Všetky práva vyhradené.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
